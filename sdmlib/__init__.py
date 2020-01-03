@@ -1,5 +1,6 @@
 import scipy.stats as st
 import numpy as np
+from time import time
 
 class Memory:
     def __init__(self, N, M, U, d, T=None, seed=None):

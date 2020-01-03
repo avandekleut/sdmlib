@@ -1,0 +1,9 @@
+README.md
+setup.py
+sdmlib/__init__.py
+sdmlib/sdmlib.py
+sdmlib.egg-info/PKG-INFO
+sdmlib.egg-info/SOURCES.txt
+sdmlib.egg-info/dependency_links.txt
+sdmlib.egg-info/requires.txt
+sdmlib.egg-info/top_level.txt
