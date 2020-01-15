@@ -1,3 +1,5 @@
+<img width=40% margin=auto src="assets/sdmlib2.drawio.svg">
+
 # Sparse Distributed Memory for Python
 
 ## What is this?
