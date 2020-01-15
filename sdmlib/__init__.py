@@ -40,8 +40,8 @@ class Memory:
         |`x`|Address. Binary numpy array of shape `(N,)`|
         |`w`|Data. Binary numpy array of shape `(U,)`|
         """
-        d = np.logical_xor(x, self.A).sum(axis=1)
-        y = np.where(d < self.d)
+        h = np.logical_xor(x, self.A).sum(axis=1)
+        y = np.where(h < self.d)
         self.C[y] += -1 + 2*w
 
     def read(self, x):
