@@ -54,8 +54,8 @@ class Memory:
         |:-:|:-:|
         |`z`|Data. Binary numpy array of shape `(U,)`|
         """
-        d = np.logical_xor(x, self.A).sum(axis=1)
-        y = np.where(d < self.d)
+        h = np.logical_xor(x, self.A).sum(axis=1)
+        y = np.where(h < self.d)
         s = self.C[y].sum(axis=0)
         z = (s > 0).astype(np.uint8)
         return z
